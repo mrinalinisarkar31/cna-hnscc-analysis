@@ -1,0 +1,6 @@
+"Gene","Treatment","HR_combined","p_value"
+"CCND1 Amplification","CDK4/6 Inhibitor (ref)",2.88881843159036,0.0134842056837791
+"CCND1 Amplification","EGFR-targeted",0.970527679867618,0.0409299101407541
+"CCND1 Amplification","Immunotherapy",1.41869421274481,0.15994467472938
+"CDKN2A Copy Number Loss","CDK4/6 Inhibitor (ref)",0.233814183334885,0.00160651590538224
+"CDKN2A Copy Number Loss","Immunotherapy",1.46810753525469,0.00196516246507185

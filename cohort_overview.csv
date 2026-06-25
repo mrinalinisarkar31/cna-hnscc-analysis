@@ -1,0 +1,6 @@
+"Treatment_Group","N","BOR_available","CB_evaluable","PFS_available","OS_available","CCND1_CNA_n","CDKN2A_CNA_n","EGFR_CNA_n","PIK3CA_CNA_n"
+"CDK4/6",69,46,44,23,23,23,15,4,0
+"EGFR",45,32,31,45,13,15,0,19,0
+"Immunotherapy",193,176,161,193,78,21,8,13,12
+"Other",19,0,0,7,7,2,0,3,4
+"PI3K",32,0,0,32,32,0,0,0,7
