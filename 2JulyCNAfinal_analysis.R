@@ -192,7 +192,17 @@ cat("\n--- EGFR model ---\n")
 print(egfr_results %>%
         filter(grepl("EGFR_cna", term)) %>%
         select(term, estimate, conf.low, conf.high, p.value))
+get_est <- function(results_df, term_pattern) {
+  val <- results_df %>% filter(grepl(term_pattern, term)) %>% pull(estimate)
+  if (length(val) == 0) return(NA_real_)
+  val[1]
+}
 
+get_p <- function(results_df, term_pattern) {
+  val <- results_df %>% filter(grepl(term_pattern, term)) %>% pull(p.value)
+  if (length(val) == 0) return(NA_real_)
+  val[1]
+}
 # ── 8. COMBINED HR PER TREATMENT GROUP (exact term matching) ─────────────────
 
 combined_hr <- tibble(
